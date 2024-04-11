@@ -1,0 +1,15 @@
+.box{
+    margin: 100px auto;
+    width: 200px !important;
+    height: 200px !important;
+    background-color: rgb(27, 172, 136);
+    transition-duration: 1s;
+    transition-delay: 0.2s !important;
+    transition-timing-function: ease-in-out;
+}
+.box:hover{
+    background-color: blueviolet !important;
+    border-radius: 50% !important;
+    transform: rotate(180deg) !important;
+
+}
